@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,400;1,9..144,600;1,9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --sage:    #818263;
+  --avocado: #C2C395;
+  --blush:   #DDBAAE;
+  --peach:   #EFD7CF;
+  --oat:     #DCD4C1;
+  --honey:   #F6E7B4;
+  --cream:   #FFF8F2;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: var(--cream);
+  color: var(--sage);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 0; background: transparent; }
+
+.font-fraunces { font-family: 'Fraunces', serif; }
+.font-caveat   { font-family: 'Caveat', cursive; }
+.font-bebas    { font-family: 'Bebas Neue', sans-serif; }
